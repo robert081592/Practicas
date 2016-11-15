@@ -1,0 +1,56 @@
+
+body{
+	
+	
+	background: #bdbdbd;
+}
+hr{
+	size: 4;
+	color: crimson;
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	font-family: comic;
+
+
+}
+
+.linea{
+	border-color: yellow;
+	border-width: 100px;
+	border-radius: 5px;
+}
+
+.form-register{
+	width: 95%;
+	max-width: 800px;
+	margin: auto;
+	background: white;
+	border-radius: 7px;
+}
+
+.form-titulo{
+	background: #424242;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-weight:  100;
+	font-size: 2.5em;
+    
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 8px solid #ffeb3b;
+}
+
+
+.radio{
+	margin-top: 24px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+p{
+	color: #000;
+}

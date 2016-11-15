@@ -1,0 +1,177 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link rel="stylesheet" type="text/css" href="mi_stilo/empresa.css">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+<form action="resgistrar.php" method="post" class="form-register">
+    <h2 class="form-titulo">Informacion General</h2>
+
+
+<div class="row">
+  <div class="input-field col s6">
+          <input type="date" class="datepicker">
+          <label for="hola">Fecha de Nacimiento</label>
+        </div>
+
+           <div class="input-field col s6">
+          <input id="titulo" type="text" class="validate">
+          <label for="titulo">Titulo o Cargo</label>
+        </div>
+
+ 
+  </div>
+
+  <div class="row">
+
+           <div class="input-field col s6"  requided>
+              <select>
+      
+                 <option value="1">Soltero/a</option>
+                 <option value="2">Comprometido/a</option>
+                 <option value="3">Casado/a</option>
+                 <option value="4">Divorciado/a</option>
+                 <option value="5">Viudo/a</option>
+                 <option value="6">Relacion De Hecho</option>
+             </select>
+                 <label>Estado Civil</label>
+           </div>
+
+        <div class="input-field col s6">
+          <input id="tel" type="text" class="validate">
+          <label for="tel">Telefono</label>
+        </div>
+
+     
+
+  </div>
+
+
+
+
+<div class="row">
+       <div class="input-field col s6"  requided>
+    <select>
+      
+      <option value="1">Boaco</option>
+      <option value="2">Carazo</option>
+       <option value="3">Chinandega</option>
+      <option value="4">Chontales</option>
+       <option value="5">Estelí</option>
+      <option value="6">Granada</option>
+       <option value="7">Jinotega</option>
+      <option value="8">León</option>
+       <option value="9">Madriz</option>
+      <option value="10">Managua</option>
+       <option value="11">Masaya</option>
+      <option value="12">Matagalpa</option>
+       <option value="13">Nueva Segovia</option>
+      <option value="14">Rivas</option>
+       <option value="15">Río San Juan</option>
+      <option value="16">R.A.C.S</option>
+        <option value="17">R.A.C.N</option>
+    </select>
+    <label>Departamento</label>
+</div>
+
+
+    <div class="input-field col s6">
+    <div>
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Ciudad</label>
+        </div>
+  </div>
+  </div>
+
+
+    <div class="center-align">
+      <div class="input-field col s6.center-align">
+        <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Dirección</label>
+     </div>
+   </div>
+
+        
+    
+
+      <div class="row">
+     
+        <div class="input-field col s12">
+          <textarea id="textarea2" class="materialize-textarea"></textarea>
+          <label for="textarea2">Descripción breve de tu perfil profesional </label>
+        </div>
+      </div>   
+
+<div class="row">
+      
+      <div class="input-field col s6"  requided>
+    <select>
+      
+          <option value="1">Ordinaria</option>
+          <option value="2">Profesional</option>
+          <option value="3">Especial</option>
+          <option value="4">Ninguna</option>
+    </select>
+    <label style="font-size: 16px;">Licencia De Conducir</label>
+
+    </div>
+
+     
+      <h6 align="right-align">Disponibilidad de Vehiculo</h6>
+        <p>
+      <input class="with-gap" name="group2" type="radio" id="test2" />
+      <label for="test2">Si</label>
+
+      <input class="with-gap" name="group2" type="radio" id="test4" />
+      <label for="test4">No</label>
+        </p>
+    
+</div>
+
+<div align=""></div>
+
+
+
+
+ <div class="center-align">
+    
+       <a href="registrate.html" ><div class="waves-effect waves-light btn"">anterior</div></a>
+      
+       <a href="registrate.html" ><div class="waves-effect waves-light btn" >siguiente</div></a>
+    
+</div>
+
+    <br><br>
+  </form>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+         $(document).ready(function() {
+    $('select').material_select();
+  });
+      </script>
+
+      <script>
+        $('.datepicker').pickadate({
+    selectMonths: true,
+    selectYears: 120 
+
+  });
+      </script>
+
+
+    </body>
+  </html>
+        
